@@ -1,0 +1,22 @@
+body{
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contentTable table{
+    margin: auto;
+}
+
+#contentTable h1{
+    margin: auto;
+}
+
+th, td, tr{
+    border: 1px solid black
+}
+
+
+
+td{
+    padding: 5px;
+}

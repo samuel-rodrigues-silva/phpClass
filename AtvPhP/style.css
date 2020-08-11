@@ -1,0 +1,44 @@
+body{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contentForm{
+    border: 1px solid black;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+}
+label, h1{
+    margin-left: 20px ;
+}
+
+
+label{
+    display: block;
+}
+
+input[type="text"], input[type="email"]{
+    display: block;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+input[type="radio"]{
+    margin-right: 10px;
+    margin-left: 20px ;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    margin-left: 45%;
+    margin-top: 5px ;
+}
+
+textarea{
+    border-radius: 15px;
+    width: 100%;
+}

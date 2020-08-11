@@ -1,0 +1,31 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário php</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div id="main">
+        <div id="contentForm">
+            <h1>Envie uma mensagem preenchendo o formulário abaixo</h1>
+            <form action="tableFormController.php" method='POST'>
+                <label for="name">Seu Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome*">
+                <label for="phoneNumber">Seu Telefone:</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Digite seu telefone *">
+                <label for="email">Seu Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email*">
+                <label for="news">Deseja receber nossas novidades?</label>
+                <input type="radio" name="news" value="sim">Sim
+                <input type="radio" name="news" value="não">Não
+                <label for="message">Sua mensagem:</label>
+                <textarea name="message" id="messsage" cols="30" rows="10"></textarea>
+                <input type="submit" placeholder="sumbit">
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>
